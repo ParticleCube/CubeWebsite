@@ -5,7 +5,7 @@ navname: Screenshots
 
 <link href="{{ site.baseurl }}/assets/micromodal.custom.css" rel="stylesheet">
 
-# Screenshots
+# 屏幕截图
 
 {% assign imagenum = 0 %}
 
