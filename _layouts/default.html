@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hans-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,7 +28,7 @@ layout: compress
     <meta name="theme-color" content="#272727">
 
     <!-- social media -->
-    <meta property="og:title" content="{{ site.serverName }} - Minecraft Server">
+    <meta property="og:title" content="{{ site.serverName }} - Minecraft 服务器">
     <meta property="og:description" content="{{ site.serverDescription }}">
     <meta property="og:image" content="{{ site.baseurl }}{{ site.siteIcon }}">
     <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}">
@@ -54,7 +54,7 @@ layout: compress
                 <div class="text-base flex-grow text-right pb-1 lg:pb-0">
                     <!-- Home link only on lg -->
                     <a href="{{ site.baseurl }}/" rel="noopener" class="hidden lg:block lg:inline-block {% if page.navname == "Home" %}text-white{% else %}text-teal-200 hover:text-white{% endif %} mr-4">
-                        Home
+                        主页
                     </a>
                     {% for nlink in site.siteNav %}
                         <a href="{{ site.baseurl }}/{{ nlink.url }}" rel="noopener" {% if nlink.newtab == true %}target="_blank" {% endif %}class="block inline-block {% if page.navname == nlink.name %}text-white{% else %}text-teal-200 hover:text-white{% endif %} mr-4">
@@ -79,8 +79,8 @@ layout: compress
 
         <!-- show loading for status API only if javascript is enabled -->
         <script>
-            document.getElementById("serverStatus").innerHTML = "Loading...";
-            document.getElementById("serverStatusM").innerHTML = "Loading...";
+            document.getElementById("serverStatus").innerHTML = "加载中...";
+            document.getElementById("serverStatusM").innerHTML = "加载中...";
         </script>
         {% endif %}
 
@@ -89,8 +89,8 @@ layout: compress
     {{ content }}
 
     <div class="layoutfooter w-full pb-8 text-center transition duration-200">
-        <a href="https://github.com/coffeebank/moonrise" rel="noopener" title="Moonrise by coffeebank" class="hover:text-gray-400">Powered by Moonrise</a> &middot; 
-        <a href="{% if site.siteFooterlink %}{{ site.baseurl }}{{ site.siteFooterlink }}{% else %}{{ site.baseurl }}/about{% endif %}" rel="noopener" title="Legal" class="hover:text-gray-400">&copy; {{ site.siteYear }}<script>new Date().getFullYear()>{{ site.siteYear }}&&document.write("&#8208;"+new Date().getFullYear());</script> {{ site.serverName }} &middot; About/Contact</a>
+        <a href="https://github.com/LittleChest" rel="noopener" title="LittleProject by LittleChest" class="hover:text-gray-400">Powered by LittleProject</a> &middot; 
+        <a href="{% if site.siteFooterlink %}{{ site.baseurl }}{{ site.siteFooterlink }}{% else %}{{ site.baseurl }}/about{% endif %}" rel="noopener" title="版权" class="hover:text-gray-400">&copy; {{ site.siteYear }}<script>new Date().getFullYear()>{{ site.siteYear }}&&document.write("&#8208;"+new Date().getFullYear());</script> {{ site.serverName }} &middot; 关于</a>
     </div>
 
     {% if page.navname == "Home" %}

@@ -5,19 +5,10 @@ navname: About
 
 # {{ site.serverName }}
 
-Moonrise is a simple, flexible template website for Minecraft servers.
+LittleProject 是一个综合性的 Minecraft 服务器。
 
-[GitHub](https://github.com/coffeebank/moonrise)
+通过独有的地图池周周轮换，让每周都有新花样！
 
+# 施工中
 
-# Terms of Use
-
-Moonrise MC is free for use [under the MIT license](https://github.com/coffeebank/moonrise).
-
-
-# Privacy Policy
-
-This website does not collect any data, but third party integrations may collect data to provide a service.
-
-- Mcsrvstat.us: Displays Minecraft server status
-- Widgetbot: Displays Discord server preview
+如你所见，服务器仍在积极开发中，因此目前暂不对外开放...你可以通过赞助加速开发并支持服务器的费用。
