@@ -13,7 +13,7 @@ showinSearchEngines: false
 # Set basic server info
 serverName: LittleProject
 serverDescription: A Minecraft server where we have lots of fun!
-serverIP: cube.skinow.skin
+serverIP: skinow.skin
 useBedrockForOnlineStatus: false
 
 
