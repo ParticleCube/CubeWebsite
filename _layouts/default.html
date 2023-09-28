@@ -30,7 +30,7 @@ layout: compress
     <!-- social media -->
     <meta property="og:title" content="{{ site.serverName }} - Minecraft 服务器">
     <meta property="og:description" content="{{ site.serverDescription }}">
-    <meta property="og:image" content="{{ site.baseurl }}{{ site.siteIcon }}">
+    <meta property="og:image" content="{{ site.baseurl }}">
     <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}">
 
 </head>
@@ -39,7 +39,7 @@ layout: compress
     <nav class="flex items-center justify-between flex-wrap bg-transparent p-6">
         <a href="{{ site.baseurl }}/">
             <div class="flex items-center flex-shrink-0 text-white mr-6 select-none">
-                <img src="{{ site.baseurl }}{{ site.siteIcon }}" class="mr-4 rounded shadow" width="30px" alt="{{ site.serverName }}">
+                <img src="{{ site.baseurl }}" class="mr-4 rounded shadow" width="30px" alt="{{ site.serverName }}">
                 <span class="font-semibold text-xl tracking-tight hidden md:block" id="serverLogoName">{{ site.serverName }}</span>
                 {% if site.siteNav %}
                     <div class="text-transparent select-none px-0 md:px-4 pb-1">
