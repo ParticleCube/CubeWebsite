@@ -25,3 +25,12 @@ LittleProject 是一个综合性的 Minecraft 服务器。
 ## 开始游戏
 
 跟随物品栏上的指引，打开传送面板以加入游戏！
+
+### 本日地图
+你宁愿
+---
+核心版本：1.16.5
+作者：[Command Realm Team](https://www.planetminecraft.com/project/would-you-rather-4897801/)
+翻译：[北极熊IceBear](https://space.bilibili.com/46318533)
+支持基岩版：否
+要求资源包：否
